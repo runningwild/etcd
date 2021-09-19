@@ -12,8 +12,8 @@
 // See the License for the specific language governing permissions and
 // limitations under the License.
 
-//go:build !windows && !plan9 && !solaris
-// +build !windows,!plan9,!solaris
+//go:build !windows && !js && !plan9 && !solaris
+// +build !windows,!js,!plan9,!solaris
 
 package fileutil
 
